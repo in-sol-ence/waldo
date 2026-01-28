@@ -174,3 +174,246 @@ git remote add origin git@github.com:in-sol-ence/waldo.git
 git push -u origin main
 sudo apt update
 sudo shutdown now 
+lsusb
+sudo dmesg | tail
+ping 8.8.8.8
+curl https://www.google.com
+ls
+sudo apt update
+sudo apt install fswebcam
+fswebcam
+ls
+fswebcam my_photo.jpg
+ls
+git status
+git add my_photo.jpg 
+git commit -m "testing usb cam"
+git branch
+git push origin main
+git pull
+git config pull.rebase true
+git pull
+ls
+git push origin main
+git log
+git pull
+git diff
+git pull origin main
+git status
+git add .
+ls
+cd ros2_ws/
+ls
+cd ..
+git status
+git log
+git revert --hard 2f155c4
+git revert --hard 2f155c4016f506d3f2fce1c44f132f1095bab45f
+git reset --hard HEAD
+git log
+git push origin main
+git pull
+git push origin main
+lsusb
+v4l2-ctl --list-devices
+sudo apt install v4l-utils
+v4l2-ctl --list-devices
+fswebcam --device /dev/video0 -r 1280x720 --no-banner photo1.jpg
+ls
+rm my_
+rm my_photo.jpg 
+git add .
+git restore --staged
+git restore --staged .
+git checkout -b camTesting
+git add .
+git commit -m "take 2"
+git push origin camTesting
+fswebcam --device /dev/video1 -r 1280x720 --no-banner photo2.jpg
+lsusb
+v4l2-ctl --list-devices
+fswebcam -d /dev/video1 --no-banner photo2.jpg
+fswebcam -d /dev/video0 --no-banner photo2.jpg
+git add .
+git commit -m "take 3"
+git push origin --set-upstream camTesting
+v4l2-ctl --list-devices
+fswebcam -d /dev/media3 --no-banner photo3.jpg
+
+git add .
+git commit -m "take 4"
+git push origin
+ls
+rm photo1.jpg 
+rm photo2.jpg 
+rm photo3.png 
+v4l2-ctl --list-devices
+fswebcam -d /dev/video0 --no-banner photo.jpg
+git add .
+git commit -m "take 5"
+git push origin
+rm photo.jpg 
+fswebcam -d /dev/video0 --no-banner photo.jpeg
+git add .
+git commit -m "take 6"
+git push origin
+rm photo.jpeg 
+fswebcam -v -S 20 photo.jpg
+git add .
+git commit -m "take 7"
+git push origin
+sudo usermod -a -G video $(whoami)
+sudo reboot
+sudo apt update
+curl https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/STServo_Python.zip
+curl "https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/STServo_Python.zip"
+man curl
+cls
+clear
+mkdir servo_test
+cd servo_test/
+ls
+curl "https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/STServo_Python.zip" -o source.zip
+ls 
+unzip source.zip 
+sudo apt install unzip
+man unzip
+clas
+clear
+unzip source.zip 
+ls
+cd STServo_Python/
+ls
+cd stservo-env/Scripts/
+ls
+./activate.bat
+activate
+./activate
+cd ,.
+sudo ./activate
+sudo activate.sh
+cd ..
+rm Scripts/
+rm -rf Scripts/
+ls
+cd sms_sts/
+nano ping.py 
+clear
+cd sms_sts/
+nano ping.py 
+ls /dev/tty
+ls /dev/ttyUSB*
+nano ping.py 
+python ping.py 
+python3 ping.py 
+ls /dev/tty
+nano ping.py 
+python3 ping.py 
+man dmesg
+ls
+nano ping.py 
+python3 ping.py 
+ls -l dev/
+ls -l /dev/tty
+nano ping.py 
+python3 ping.py 
+nano ping.py 
+python3 ping.py 
+nano ping.py 
+python3 ping.py 
+sudo shutdown now
+man curl
+ls
+rm photo.jpg 
+rm photo2.jpg 
+ls
+nano test.log 
+ls
+cd servo_test/
+cd ..
+rm -rf servo_test/
+ls
+mkdir servo_test && cd servo_test
+ls
+curl -o "servo.rar" "https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/SCServo_Linux.rar"
+apt update
+sudo apt update
+sudo shutdown now 
+sudo apt update 
+ping google.com
+drive
+ip -br linl
+ip -br link
+sudo shutdown now
+man ip
+ip -br link
+sudo apt install -y hostpad dnsmasq
+sudo nmcli 
+cd /etc/
+ls
+cd network
+ls
+cd ..
+cd ne
+cd netplan/
+ls
+nano 50-cloud-init.yaml 
+cat /etc/netplan/*.yaml
+ls
+man cat
+clear
+netplan
+ip -br link
+cd /
+ls
+cd user
+cd usr
+ls
+cd ~/
+ls
+sudo apt update
+ls
+sudo apt update
+sudo apt install -y hostapd dnsmasq
+sudo nano /etc/netplan/50-cloud-init.yaml 
+sudo systemctl stop hostapd dnsmasq
+sudo nano /etc/netplan/50-cloud-init.yaml 
+cd servo_test/
+curl -o "servo.rar" "https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/SCServo_Linux.rar"
+unzip servo.rar
+unrar servo.ra
+unrar servo.rar
+sudo apt install unrar
+unrar servo.rar
+man unrar
+unrar e servo.rar 
+unrar e servo.rar -y
+ls
+rm -rf .
+cd ..
+rm -rf servo_test/
+ls
+cd ser
+mkdir servo_test
+cd servo_test/
+ls
+curl -o "servo.rar" "https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/SCServo_Linux.rar"
+unrar x servo.rar
+ls
+cd SCServo_Linux_220329
+ls
+cd SCServo_Linux/
+ls
+cd ..
+ls 
+cd ..
+ls
+cd SCServo_Linux_220329/
+cmake ,
+cd SCServo_Linux/
+cmake ,
+cd examples/
+cd Write
+cd SMS_STS/
+ls
+sudo shutdown now 
