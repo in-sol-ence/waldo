@@ -417,3 +417,121 @@ cd Write
 cd SMS_STS/
 ls
 sudo shutdown now 
+git status
+ls
+cd ros2_ws/
+ls
+cd src
+ls
+cd ..
+cd //
+cd ~/
+ls
+git add .
+git commit -m "removed test photos"
+git push origin main
+cat /etc/os-release
+nano ~/.ssh/config
+git push origin main
+nano ~/.ssh/config
+git push origin main
+hostname -I
+hostname
+mkdir yolo
+lusb
+lsusb
+sudo nano /boot/firmware/config/txt
+sudo nano /boot/firmware/config.txt
+sudo nano /boot/firmware/cmdline.txt
+sudo reboot
+ls
+sudo reboot
+ssh waldo@waldo.local
+sudo systemctl enable ssh
+sudo systemctl start ssh
+hostname -i
+hostname -I
+pwd
+ls
+mncli
+nmcli
+sudo apt install network-manager
+nmcli
+sudo nano /boot/firmware/config.txt
+sudo nano /boot/firemware/cmdline.txt
+sudo nano /boot/firmware/cmdline.txt 
+sudo systemctl enable ssh
+sudo reboot
+hostname -I
+hostname -i
+sudo raspi.config
+sudo raspi-config
+nmcli device
+sudo apt install network-manager
+sudo nano /etc/resolv.conf 
+ping google.com
+sudo nano /etc/resolv.conf
+les /etc/netplan
+ls /etc/netplan
+sudo nano /etc/netplan/50-cloud-init.yaml 
+sudo netplan apply
+hostname -I
+hostname
+hostname -I
+ssh alanmorillo@Jaimes-MacBook-Air.local
+pwd
+hostname -i
+hostname -I
+sudo shutdown now 
+sudo raspi-config
+hostname -I
+hostnamectl
+hostname
+sudo nana /boot/firmware/config.txt 
+sudo nano /boot/firmware/config.txt 
+sudo nano /boot/firmware/cmdline.txt 
+sudo reboot
+ip addr show usb0
+ping -c 4 10.214.8.94
+ip link show
+hostname
+ip adr
+ip addr
+hostname -I
+sudo ip link set wlan0 down
+hostname -I
+ip link
+lsmod | grep dwc2
+sudo modprobe dwc2
+sudo modprobe g_ether
+ip link
+ls /sys/class/net
+dmesg | grep -i "gadget"
+sudo dmesg | grep -i "gadget"
+cat /boot/firmware/config.txt | grep dwc2
+cat /boot/firmware/cmdline.txt 
+sudo nano /boot/firmware/config.txt 
+sudo reboot
+cd ros2_ws/src/
+cd ..
+source /opt/ros/humble/setup.bash 
+colcon build
+cd src/
+ros2 pkg create --build-type ament_python hardware
+ls
+cd hardware/
+ls
+arp -a
+ipv4
+ipf4
+ipconfig
+ifconfig
+sudp a[t[2~[2~
+sudo apt install net-tools
+sudo reboot
+sudo apt update
+cd ros2_ws/src/hardware/
+ls
+nano package.xml 
+clear
+sudo shutdown now
