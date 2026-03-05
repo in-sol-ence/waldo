@@ -118,3 +118,4 @@ fi
 
 source /opt/ros/humble/setup.bash
 
+alias robot="source ~/venv/lerobot/bin/activate"

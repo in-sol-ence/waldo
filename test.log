@@ -1,0 +1,34 @@
+--- Opening /dev/video0...
+Trying source module v4l2...
+/dev/video0 opened.
+src_v4l2_get_capability,87: /dev/video0 information:
+src_v4l2_get_capability,88: cap.driver: "uvcvideo"
+src_v4l2_get_capability,89: cap.card: "C270 HD WEBCAM"
+src_v4l2_get_capability,90: cap.bus_info: "usb-0000:01:00.0-1.3"
+src_v4l2_get_capability,91: cap.capabilities=0x84A00001
+src_v4l2_get_capability,92: - VIDEO_CAPTURE
+src_v4l2_get_capability,103: - STREAMING
+No input was specified, using the first.
+src_v4l2_set_input,181: /dev/video0: Input 0 information:
+src_v4l2_set_input,182: name = "Camera 1"
+src_v4l2_set_input,183: type = 00000002
+src_v4l2_set_input,185: - CAMERA
+src_v4l2_set_input,186: audioset = 00000000
+src_v4l2_set_input,187: tuner = 00000000
+src_v4l2_set_input,188: status = 00000000
+src_v4l2_set_pix_format,520: Device offers the following V4L2 pixel formats:
+src_v4l2_set_pix_format,533: 0: [0x56595559] 'YUYV' (YUYV 4:2:2)
+src_v4l2_set_pix_format,533: 1: [0x47504A4D] 'MJPG' (Motion-JPEG)
+Using palette MJPEG
+Adjusting resolution from 384x288 to 352x288.
+src_v4l2_set_mmap,672: mmap information:
+src_v4l2_set_mmap,673: frames=4
+src_v4l2_set_mmap,722: 0 length=202752
+src_v4l2_set_mmap,722: 1 length=202752
+src_v4l2_set_mmap,722: 2 length=202752
+src_v4l2_set_mmap,722: 3 length=202752
+--- Capturing frame...
+verify_jpeg_dht,94: Inserting DHT segment into JPEG frame.
+Captured frame in 0.00 seconds.
+--- Processing captured image...
+Writing JPEG image to 'photo2.jpg'.
