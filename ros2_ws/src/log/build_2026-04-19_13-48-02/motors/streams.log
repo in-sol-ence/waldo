@@ -1,0 +1,22 @@
+[3.117s] Invoking command in '/home/waldo/ros2_ws/src/motors': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/waldo/ros2_ws/src/build/motors/prefix_override:/home/waldo/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/motors build --build-base /home/waldo/ros2_ws/src/build/motors/build install --record /home/waldo/ros2_ws/src/build/motors/install.log --single-version-externally-managed install_data
+[4.217s] running egg_info
+[4.220s] writing ../build/motors/motors.egg-info/PKG-INFO
+[4.222s] writing dependency_links to ../build/motors/motors.egg-info/dependency_links.txt
+[4.226s] writing entry points to ../build/motors/motors.egg-info/entry_points.txt
+[4.226s] writing requirements to ../build/motors/motors.egg-info/requires.txt
+[4.227s] writing top-level names to ../build/motors/motors.egg-info/top_level.txt
+[4.234s] reading manifest file '../build/motors/motors.egg-info/SOURCES.txt'
+[4.238s] writing manifest file '../build/motors/motors.egg-info/SOURCES.txt'
+[4.239s] running build
+[4.240s] running build_py
+[4.241s] running install
+[4.243s] running install_lib
+[4.250s] running install_data
+[4.251s] running install_egg_info
+[4.259s] removing '/home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors-0.0.0-py3.10.egg-info' (and everything under it)
+[4.261s] Copying ../build/motors/motors.egg-info to /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors-0.0.0-py3.10.egg-info
+[4.267s] running install_scripts
+[4.358s] Installing arm script to /home/waldo/ros2_ws/src/install/motors/lib/motors
+[4.359s] Installing drive script to /home/waldo/ros2_ws/src/install/motors/lib/motors
+[4.361s] writing list of installed files to '/home/waldo/ros2_ws/src/build/motors/install.log'
+[4.488s] Invoked command in '/home/waldo/ros2_ws/src/motors' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/waldo/ros2_ws/src/build/motors/prefix_override:/home/waldo/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/motors build --build-base /home/waldo/ros2_ws/src/build/motors/build install --record /home/waldo/ros2_ws/src/build/motors/install.log --single-version-externally-managed install_data

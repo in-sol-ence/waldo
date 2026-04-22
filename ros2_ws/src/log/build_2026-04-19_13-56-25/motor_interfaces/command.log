@@ -1,0 +1,4 @@
+Invoking command in '/home/waldo/ros2_ws/src/build/motor_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/waldo/ros2_ws/src/build/motor_interfaces -- -j4 -l4
+Invoked command in '/home/waldo/ros2_ws/src/build/motor_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/waldo/ros2_ws/src/build/motor_interfaces -- -j4 -l4
+Invoking command in '/home/waldo/ros2_ws/src/build/motor_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/waldo/ros2_ws/src/build/motor_interfaces
+Invoked command in '/home/waldo/ros2_ws/src/build/motor_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/waldo/ros2_ws/src/build/motor_interfaces

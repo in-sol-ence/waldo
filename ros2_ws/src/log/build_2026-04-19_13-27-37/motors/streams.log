@@ -1,0 +1,41 @@
+[3.449s] Invoking command in '/home/waldo/ros2_ws/src/motors': AMENT_PREFIX_PATH=/home/waldo/ros2_ws/src/install/motor_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/waldo/ros2_ws/src/install/motor_interfaces LD_LIBRARY_PATH=/home/waldo/ros2_ws/src/install/motor_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/waldo/ros2_ws/src/build/motors/prefix_override:/home/waldo/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages:/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/motors build --build-base /home/waldo/ros2_ws/src/build/motors/build install --record /home/waldo/ros2_ws/src/build/motors/install.log --single-version-externally-managed install_data
+[4.540s] running egg_info
+[4.542s] creating ../build/motors/motors.egg-info
+[4.543s] writing ../build/motors/motors.egg-info/PKG-INFO
+[4.545s] writing dependency_links to ../build/motors/motors.egg-info/dependency_links.txt
+[4.546s] writing entry points to ../build/motors/motors.egg-info/entry_points.txt
+[4.547s] writing requirements to ../build/motors/motors.egg-info/requires.txt
+[4.547s] writing top-level names to ../build/motors/motors.egg-info/top_level.txt
+[4.548s] writing manifest file '../build/motors/motors.egg-info/SOURCES.txt'
+[4.556s] reading manifest file '../build/motors/motors.egg-info/SOURCES.txt'
+[4.560s] writing manifest file '../build/motors/motors.egg-info/SOURCES.txt'
+[4.561s] running build
+[4.561s] running build_py
+[4.562s] creating /home/waldo/ros2_ws/src/build/motors/build
+[4.563s] creating /home/waldo/ros2_ws/src/build/motors/build/lib
+[4.564s] creating /home/waldo/ros2_ws/src/build/motors/build/lib/motors
+[4.564s] copying motors/arm_positon.py -> /home/waldo/ros2_ws/src/build/motors/build/lib/motors
+[4.565s] copying motors/__init__.py -> /home/waldo/ros2_ws/src/build/motors/build/lib/motors
+[4.565s] copying motors/drivetrain.py -> /home/waldo/ros2_ws/src/build/motors/build/lib/motors
+[4.566s] running install
+[4.568s] running install_lib
+[4.573s] creating /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors
+[4.574s] copying /home/waldo/ros2_ws/src/build/motors/build/lib/motors/arm_positon.py -> /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors
+[4.574s] copying /home/waldo/ros2_ws/src/build/motors/build/lib/motors/__init__.py -> /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors
+[4.575s] copying /home/waldo/ros2_ws/src/build/motors/build/lib/motors/drivetrain.py -> /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors
+[4.578s] byte-compiling /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors/arm_positon.py to arm_positon.cpython-310.pyc
+[4.588s] byte-compiling /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors/__init__.py to __init__.cpython-310.pyc
+[4.589s] byte-compiling /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors/drivetrain.py to drivetrain.cpython-310.pyc
+[4.595s] running install_data
+[4.596s] creating /home/waldo/ros2_ws/src/install/motors/share/ament_index
+[4.596s] creating /home/waldo/ros2_ws/src/install/motors/share/ament_index/resource_index
+[4.597s] creating /home/waldo/ros2_ws/src/install/motors/share/ament_index/resource_index/packages
+[4.597s] copying resource/motors -> /home/waldo/ros2_ws/src/install/motors/share/ament_index/resource_index/packages
+[4.598s] copying package.xml -> /home/waldo/ros2_ws/src/install/motors/share/motors
+[4.598s] running install_egg_info
+[4.606s] Copying ../build/motors/motors.egg-info to /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors-0.0.0-py3.10.egg-info
+[4.612s] running install_scripts
+[4.705s] Installing arm script to /home/waldo/ros2_ws/src/install/motors/lib/motors
+[4.706s] Installing drive script to /home/waldo/ros2_ws/src/install/motors/lib/motors
+[4.708s] writing list of installed files to '/home/waldo/ros2_ws/src/build/motors/install.log'
+[4.837s] Invoked command in '/home/waldo/ros2_ws/src/motors' returned '0': AMENT_PREFIX_PATH=/home/waldo/ros2_ws/src/install/motor_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/waldo/ros2_ws/src/install/motor_interfaces LD_LIBRARY_PATH=/home/waldo/ros2_ws/src/install/motor_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/waldo/ros2_ws/src/build/motors/prefix_override:/home/waldo/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages:/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/motors build --build-base /home/waldo/ros2_ws/src/build/motors/build install --record /home/waldo/ros2_ws/src/build/motors/install.log --single-version-externally-managed install_data

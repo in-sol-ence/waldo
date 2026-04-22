@@ -1,0 +1,267 @@
+[0.000000] (-) TimerEvent: {}
+[0.001134] (motor_interfaces) JobQueued: {'identifier': 'motor_interfaces', 'dependencies': OrderedDict()}
+[0.002208] (motors) JobQueued: {'identifier': 'motors', 'dependencies': OrderedDict([('motor_interfaces', '/home/waldo/ros2_ws/src/install/motor_interfaces')])}
+[0.003073] (motor_interfaces) JobStarted: {'identifier': 'motor_interfaces'}
+[0.055140] (motor_interfaces) JobProgress: {'identifier': 'motor_interfaces', 'progress': 'cmake'}
+[0.059072] (motor_interfaces) JobProgress: {'identifier': 'motor_interfaces', 'progress': 'build'}
+[0.062237] (motor_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/waldo/ros2_ws/src/build/motor_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/waldo/ros2_ws/src/build/motor_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'waldo'), ('SSH_CLIENT', '192.168.68.56 62496 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/waldo/ros2_ws/src/install/motor_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/waldo'), ('OLDPWD', '/home/waldo/drivers'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/waldo/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'waldo'), ('_', '/home/waldo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/waldo/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/waldo/ros2_ws/src/install/motors:/home/waldo/ros2_ws/src/install/motor_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/waldo/ros2_ws/src/build/motor_interfaces'), ('SSH_CONNECTION', '192.168.68.56 62496 192.168.68.61 22'), ('PYTHONPATH', '/home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages:/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/waldo/ros2_ws/src/install/motor_interfaces:/home/waldo/ros2_ws/src/install/motors:/opt/ros/humble')]), 'shell': False}
+[0.099008] (-) TimerEvent: {}
+[0.199872] (-) TimerEvent: {}
+[0.261065] (motor_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.300117] (-) TimerEvent: {}
+[0.328466] (motor_interfaces) StdoutLine: {'line': b'[  3%] Built target motor_interfaces__cpp\n'}
+[0.340593] (motor_interfaces) StdoutLine: {'line': b'[ 12%] Built target motor_interfaces__rosidl_generator_c\n'}
+[0.375535] (motor_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_motor_interfaces\n'}
+[0.389034] (motor_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.397569] (motor_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.401364] (-) TimerEvent: {}
+[0.406098] (motor_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.458157] (motor_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.483284] (motor_interfaces) StdoutLine: {'line': b'[ 22%] Built target motor_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.489724] (motor_interfaces) StdoutLine: {'line': b'[ 32%] Built target motor_interfaces__rosidl_typesupport_cpp\n'}
+[0.501611] (-) TimerEvent: {}
+[0.520881] (motor_interfaces) StdoutLine: {'line': b'[ 41%] Built target motor_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.546355] (motor_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.559662] (motor_interfaces) StdoutLine: {'line': b'[ 51%] Built target motor_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.602070] (-) TimerEvent: {}
+[0.626209] (motor_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.632113] (motor_interfaces) StdoutLine: {'line': b'[ 61%] Built target motor_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.685937] (motor_interfaces) StdoutLine: {'line': b'[ 70%] Built target motor_interfaces__rosidl_typesupport_c\n'}
+[0.702259] (-) TimerEvent: {}
+[0.788281] (motor_interfaces) StdoutLine: {'line': b'[ 70%] Built target motor_interfaces\n'}
+[0.802442] (-) TimerEvent: {}
+[0.893668] (motor_interfaces) StdoutLine: {'line': b'[ 74%] Built target motor_interfaces__py\n'}
+[0.902653] (-) TimerEvent: {}
+[0.946541] (motor_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_generator_py\x1b[0m\n'}
+[1.002929] (-) TimerEvent: {}
+[1.037861] (motor_interfaces) StdoutLine: {'line': b'[ 80%] Built target motor_interfaces__rosidl_generator_py\n'}
+[1.102111] (motor_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.110378] (-) TimerEvent: {}
+[1.123367] (motor_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.129642] (motor_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.217094] (-) TimerEvent: {}
+[1.223436] (motor_interfaces) StdoutLine: {'line': b'[ 87%] Built target motor_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.234655] (motor_interfaces) StdoutLine: {'line': b'[ 93%] Built target motor_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.264478] (motor_interfaces) StdoutLine: {'line': b'[100%] Built target motor_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.317255] (-) TimerEvent: {}
+[1.417947] (-) TimerEvent: {}
+[1.518687] (-) TimerEvent: {}
+[1.619483] (-) TimerEvent: {}
+[1.720330] (-) TimerEvent: {}
+[1.821199] (-) TimerEvent: {}
+[1.862321] (motor_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.865500] (motor_interfaces) StdoutLine: {'line': b'writing motor_interfaces.egg-info/PKG-INFO\n'}
+[1.866862] (motor_interfaces) StdoutLine: {'line': b'writing dependency_links to motor_interfaces.egg-info/dependency_links.txt\n'}
+[1.868154] (motor_interfaces) StdoutLine: {'line': b'writing top-level names to motor_interfaces.egg-info/top_level.txt\n'}
+[1.879326] (motor_interfaces) StdoutLine: {'line': b"reading manifest file 'motor_interfaces.egg-info/SOURCES.txt'\n"}
+[1.882345] (motor_interfaces) StdoutLine: {'line': b"writing manifest file 'motor_interfaces.egg-info/SOURCES.txt'\n"}
+[1.921544] (-) TimerEvent: {}
+[2.020327] (motor_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_motor_interfaces_egg\n'}
+[2.021551] (-) TimerEvent: {}
+[2.071553] (motor_interfaces) CommandEnded: {'returncode': 0}
+[2.074428] (motor_interfaces) JobProgress: {'identifier': 'motor_interfaces', 'progress': 'install'}
+[2.112712] (motor_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/waldo/ros2_ws/src/build/motor_interfaces'], 'cwd': '/home/waldo/ros2_ws/src/build/motor_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'waldo'), ('SSH_CLIENT', '192.168.68.56 62496 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/waldo/ros2_ws/src/install/motor_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/waldo'), ('OLDPWD', '/home/waldo/drivers'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/waldo/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'waldo'), ('_', '/home/waldo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/waldo/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/waldo/ros2_ws/src/install/motors:/home/waldo/ros2_ws/src/install/motor_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/waldo/ros2_ws/src/build/motor_interfaces'), ('SSH_CONNECTION', '192.168.68.56 62496 192.168.68.61 22'), ('PYTHONPATH', '/home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages:/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/waldo/ros2_ws/src/install/motor_interfaces:/home/waldo/ros2_ws/src/install/motors:/opt/ros/humble')]), 'shell': False}
+[2.122069] (-) TimerEvent: {}
+[2.153782] (motor_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.155303] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/ament_index/resource_index/rosidl_interfaces/motor_interfaces\n'}
+[2.156561] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces\n'}
+[2.157412] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg\n'}
+[2.158261] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.158867] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv\n'}
+[2.159547] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail\n'}
+[2.160209] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__functions.h\n'}
+[2.160710] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__struct.h\n'}
+[2.161327] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__type_support.h\n'}
+[2.162008] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__functions.c\n'}
+[2.162429] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/arm_pos.h\n'}
+[2.162839] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/library_path.sh\n'}
+[2.163428] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/library_path.dsv\n'}
+[2.164088] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_generator_c.so\n'}
+[2.164906] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces\n'}
+[2.166467] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg\n'}
+[2.167240] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.168321] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv\n'}
+[2.169532] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail\n'}
+[2.171111] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__rosidl_typesupport_fastrtps_c.h\n'}
+[2.173386] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.174188] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces\n'}
+[2.174728] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg\n'}
+[2.175570] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.176110] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv\n'}
+[2.176651] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail\n'}
+[2.177325] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__rosidl_typesupport_introspection_c.h\n'}
+[2.178196] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__type_support.c\n'}
+[2.178917] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.179844] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_c.so\n'}
+[2.180709] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces\n'}
+[2.182156] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv\n'}
+[2.183076] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail\n'}
+[2.184233] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__struct.hpp\n'}
+[2.185638] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__builder.hpp\n'}
+[2.186496] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__traits.hpp\n'}
+[2.187029] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/arm_pos.hpp\n'}
+[2.187757] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces\n'}
+[2.188266] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg\n'}
+[2.188715] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.190009] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv\n'}
+[2.191221] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail\n'}
+[2.192206] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/dds_fastrtps\n'}
+[2.192738] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.193684] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.194330] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces\n'}
+[2.194752] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv\n'}
+[2.195201] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail\n'}
+[2.195705] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.196408] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__type_support.cpp\n'}
+[2.196862] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.197463] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.198400] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/pythonpath.sh\n'}
+[2.199148] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/pythonpath.dsv\n'}
+[2.199612] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.0.0-py3.10.egg-info\n'}
+[2.200145] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.200871] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.202099] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.203571] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.205282] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces\n'}
+[2.207222] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.208104] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.208716] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.209520] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/libmotor_interfaces__rosidl_generator_py.so\n'}
+[2.210105] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv\n'}
+[2.210617] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv/_arm_pos.py\n'}
+[2.211275] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv/__init__.py\n'}
+[2.211705] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv/_arm_pos_s.c\n'}
+[2.212217] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.212633] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/__init__.py\n'}
+[2.213204] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.213604] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.221969] (-) TimerEvent: {}
+[2.323296] (-) TimerEvent: {}
+[2.383339] (motor_interfaces) StdoutLine: {'line': b"Listing '/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces'...\n"}
+[2.385915] (motor_interfaces) StdoutLine: {'line': b"Listing '/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv'...\n"}
+[2.413226] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.416037] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.418616] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.421152] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_generator_py.so\n'}
+[2.422729] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/srv/ArmPos.idl\n'}
+[2.423455] (-) TimerEvent: {}
+[2.424111] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/srv/ArmPos.srv\n'}
+[2.425009] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/srv/ArmPos_Request.msg\n'}
+[2.425607] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/srv/ArmPos_Response.msg\n'}
+[2.426362] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/ament_index/resource_index/package_run_dependencies/motor_interfaces\n'}
+[2.426987] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/ament_index/resource_index/parent_prefix_path/motor_interfaces\n'}
+[2.427575] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/ament_prefix_path.sh\n'}
+[2.428343] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.428964] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/path.sh\n'}
+[2.429587] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/path.dsv\n'}
+[2.430270] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/local_setup.bash\n'}
+[2.430736] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/local_setup.sh\n'}
+[2.431278] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/local_setup.zsh\n'}
+[2.431972] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/local_setup.dsv\n'}
+[2.432468] (motor_interfaces) StdoutLine: {'line': b'-- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/package.dsv\n'}
+[2.433106] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/ament_index/resource_index/packages/motor_interfaces\n'}
+[2.433646] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.434193] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.434750] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.435426] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.436078] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.436705] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.437638] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.438353] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.439276] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.440282] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.441025] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.442008] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.442659] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.443671] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.444388] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.445333] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.445990] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.446578] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.447181] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.447730] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.448377] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.449073] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.449858] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.450537] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.451502] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfacesConfig.cmake\n'}
+[2.452183] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfacesConfig-version.cmake\n'}
+[2.452855] (motor_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/package.xml\n'}
+[2.459514] (motor_interfaces) CommandEnded: {'returncode': 0}
+[2.524876] (-) TimerEvent: {}
+[2.596137] (motor_interfaces) JobEnded: {'identifier': 'motor_interfaces', 'rc': 0}
+[2.602949] (motors) JobStarted: {'identifier': 'motors'}
+[2.625148] (-) TimerEvent: {}
+[2.726105] (-) TimerEvent: {}
+[2.826972] (-) TimerEvent: {}
+[2.927780] (-) TimerEvent: {}
+[3.028608] (-) TimerEvent: {}
+[3.129515] (-) TimerEvent: {}
+[3.230317] (-) TimerEvent: {}
+[3.331174] (-) TimerEvent: {}
+[3.431976] (-) TimerEvent: {}
+[3.532726] (-) TimerEvent: {}
+[3.633700] (-) TimerEvent: {}
+[3.734763] (-) TimerEvent: {}
+[3.835580] (-) TimerEvent: {}
+[3.936536] (-) TimerEvent: {}
+[4.037899] (-) TimerEvent: {}
+[4.138896] (-) TimerEvent: {}
+[4.239673] (-) TimerEvent: {}
+[4.340638] (-) TimerEvent: {}
+[4.441679] (-) TimerEvent: {}
+[4.544844] (-) TimerEvent: {}
+[4.645637] (-) TimerEvent: {}
+[4.746456] (-) TimerEvent: {}
+[4.847310] (-) TimerEvent: {}
+[4.948781] (-) TimerEvent: {}
+[5.049584] (-) TimerEvent: {}
+[5.150423] (-) TimerEvent: {}
+[5.251276] (-) TimerEvent: {}
+[5.352163] (-) TimerEvent: {}
+[5.453124] (-) TimerEvent: {}
+[5.553908] (-) TimerEvent: {}
+[5.654672] (-) TimerEvent: {}
+[5.755549] (-) TimerEvent: {}
+[5.840482] (motors) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/motors', 'build', '--build-base', '/home/waldo/ros2_ws/src/build/motors/build', 'install', '--record', '/home/waldo/ros2_ws/src/build/motors/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/waldo/ros2_ws/src/motors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'waldo', 'SSH_CLIENT': '192.168.68.56 62496 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/waldo/ros2_ws/src/install/motor_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/waldo', 'OLDPWD': '/home/waldo/drivers', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'PS1': '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/waldo/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'waldo', '_': '/home/waldo/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/waldo/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/waldo/ros2_ws/src/install/motors:/home/waldo/ros2_ws/src/install/motor_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/waldo/ros2_ws/src/build/motors', 'SSH_CONNECTION': '192.168.68.56 62496 192.168.68.61 22', 'PYTHONPATH': '/home/waldo/ros2_ws/src/build/motors/prefix_override:/home/waldo/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages:/home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages:/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/waldo/ros2_ws/src/install/motor_interfaces'}, 'shell': False}
+[5.855720] (-) TimerEvent: {}
+[5.956573] (-) TimerEvent: {}
+[6.057391] (-) TimerEvent: {}
+[6.158393] (-) TimerEvent: {}
+[6.259243] (-) TimerEvent: {}
+[6.360062] (-) TimerEvent: {}
+[6.460848] (-) TimerEvent: {}
+[6.561553] (-) TimerEvent: {}
+[6.662947] (-) TimerEvent: {}
+[6.763685] (-) TimerEvent: {}
+[6.864564] (-) TimerEvent: {}
+[6.956693] (motors) StdoutLine: {'line': b'running egg_info\n'}
+[6.959939] (motors) StdoutLine: {'line': b'writing ../build/motors/motors.egg-info/PKG-INFO\n'}
+[6.961173] (motors) StdoutLine: {'line': b'writing dependency_links to ../build/motors/motors.egg-info/dependency_links.txt\n'}
+[6.962417] (motors) StdoutLine: {'line': b'writing entry points to ../build/motors/motors.egg-info/entry_points.txt\n'}
+[6.963384] (motors) StdoutLine: {'line': b'writing requirements to ../build/motors/motors.egg-info/requires.txt\n'}
+[6.964289] (motors) StdoutLine: {'line': b'writing top-level names to ../build/motors/motors.egg-info/top_level.txt\n'}
+[6.965043] (-) TimerEvent: {}
+[6.973021] (motors) StdoutLine: {'line': b"reading manifest file '../build/motors/motors.egg-info/SOURCES.txt'\n"}
+[6.977207] (motors) StdoutLine: {'line': b"writing manifest file '../build/motors/motors.egg-info/SOURCES.txt'\n"}
+[6.978113] (motors) StdoutLine: {'line': b'running build\n'}
+[6.978719] (motors) StdoutLine: {'line': b'running build_py\n'}
+[6.979625] (motors) StdoutLine: {'line': b'copying motors/drivetrain.py -> /home/waldo/ros2_ws/src/build/motors/build/lib/motors\n'}
+[6.981382] (motors) StdoutLine: {'line': b'running install\n'}
+[6.983012] (motors) StdoutLine: {'line': b'running install_lib\n'}
+[6.987588] (motors) StdoutLine: {'line': b'copying /home/waldo/ros2_ws/src/build/motors/build/lib/motors/drivetrain.py -> /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors\n'}
+[6.990956] (motors) StdoutLine: {'line': b'byte-compiling /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors/drivetrain.py to drivetrain.cpython-310.pyc\n'}
+[6.998666] (motors) StdoutLine: {'line': b'running install_data\n'}
+[7.000344] (motors) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.009029] (motors) StdoutLine: {'line': b"removing '/home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.011183] (motors) StdoutLine: {'line': b'Copying ../build/motors/motors.egg-info to /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors-0.0.0-py3.10.egg-info\n'}
+[7.017712] (motors) StdoutLine: {'line': b'running install_scripts\n'}
+[7.065229] (-) TimerEvent: {}
+[7.108283] (motors) StdoutLine: {'line': b'Installing arm script to /home/waldo/ros2_ws/src/install/motors/lib/motors\n'}
+[7.109312] (motors) StdoutLine: {'line': b'Installing drive script to /home/waldo/ros2_ws/src/install/motors/lib/motors\n'}
+[7.111350] (motors) StdoutLine: {'line': b"writing list of installed files to '/home/waldo/ros2_ws/src/build/motors/install.log'\n"}
+[7.165561] (-) TimerEvent: {}
+[7.234421] (motors) CommandEnded: {'returncode': 0}
+[7.265973] (-) TimerEvent: {}
+[7.271530] (motors) JobEnded: {'identifier': 'motors', 'rc': 0}
+[7.275261] (-) EventReactorShutdown: {}

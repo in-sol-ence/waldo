@@ -1,0 +1,1 @@
+/home/waldo/ros2_ws/build/motor_interfaces/rosidl_typesupport_introspection_c/motor_interfaces/srv/detail/arm_pos__rosidl_typesupport_introspection_c.h

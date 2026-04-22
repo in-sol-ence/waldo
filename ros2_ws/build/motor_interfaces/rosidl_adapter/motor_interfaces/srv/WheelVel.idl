@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from motor_interfaces/srv/WheelVel.srv
+// generated code does not contain a copyright notice
+
+
+module motor_interfaces {
+  module srv {
+    typedef int16 int16__3[3];
+    struct WheelVel_Request {
+      int16__3 vel;
+    };
+    struct WheelVel_Response {
+      boolean complete;
+    };
+  };
+};

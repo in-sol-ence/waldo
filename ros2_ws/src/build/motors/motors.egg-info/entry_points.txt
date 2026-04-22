@@ -1,0 +1,4 @@
+[console_scripts]
+arm = motors.arm_positon:main
+drive = motors.drivetrain:main
+

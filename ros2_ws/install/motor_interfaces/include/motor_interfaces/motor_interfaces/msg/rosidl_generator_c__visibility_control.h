@@ -1,0 +1,1 @@
+/home/waldo/ros2_ws/build/motor_interfaces/rosidl_generator_c/motor_interfaces/msg/rosidl_generator_c__visibility_control.h

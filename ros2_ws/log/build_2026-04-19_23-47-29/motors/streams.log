@@ -1,0 +1,25 @@
+[2.953s] Invoking command in '/home/waldo/ros2_ws/build/motors': AMENT_PREFIX_PATH=/home/waldo/ros2_ws/install/motor_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/waldo/ros2_ws/install/motor_interfaces LD_LIBRARY_PATH=/home/waldo/ros2_ws/install/motor_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/waldo/ros2_ws/build/motors/prefix_override:/home/waldo/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waldo/ros2_ws/install/motors/lib/python3.10/site-packages:/home/waldo/ros2_ws/install/motor_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/waldo/ros2_ws/build/motors/build --no-deps symlink_data
+[4.128s] running develop
+[4.792s] running egg_info
+[4.792s] creating motors.egg-info
+[4.793s] writing motors.egg-info/PKG-INFO
+[4.794s] writing dependency_links to motors.egg-info/dependency_links.txt
+[4.795s] writing entry points to motors.egg-info/entry_points.txt
+[4.796s] writing requirements to motors.egg-info/requires.txt
+[4.796s] writing top-level names to motors.egg-info/top_level.txt
+[4.797s] writing manifest file 'motors.egg-info/SOURCES.txt'
+[4.804s] reading manifest file 'motors.egg-info/SOURCES.txt'
+[4.807s] writing manifest file 'motors.egg-info/SOURCES.txt'
+[4.814s] running build_ext
+[4.815s] Creating /home/waldo/ros2_ws/install/motors/lib/python3.10/site-packages/motors.egg-link (link to .)
+[4.819s] Installing arm script to /home/waldo/ros2_ws/install/motors/lib/motors
+[4.820s] Installing drive script to /home/waldo/ros2_ws/install/motors/lib/motors
+[4.822s] 
+[4.822s] Installed /home/waldo/ros2_ws/build/motors
+[4.823s] running symlink_data
+[4.823s] creating /home/waldo/ros2_ws/install/motors/share/ament_index
+[4.824s] creating /home/waldo/ros2_ws/install/motors/share/ament_index/resource_index
+[4.825s] creating /home/waldo/ros2_ws/install/motors/share/ament_index/resource_index/packages
+[4.826s] symbolically linking /home/waldo/ros2_ws/build/motors/resource/motors -> /home/waldo/ros2_ws/install/motors/share/ament_index/resource_index/packages
+[4.827s] symbolically linking /home/waldo/ros2_ws/build/motors/package.xml -> /home/waldo/ros2_ws/install/motors/share/motors
+[4.959s] Invoked command in '/home/waldo/ros2_ws/build/motors' returned '0': AMENT_PREFIX_PATH=/home/waldo/ros2_ws/install/motor_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/waldo/ros2_ws/install/motor_interfaces LD_LIBRARY_PATH=/home/waldo/ros2_ws/install/motor_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/waldo/ros2_ws/build/motors/prefix_override:/home/waldo/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waldo/ros2_ws/install/motors/lib/python3.10/site-packages:/home/waldo/ros2_ws/install/motor_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/waldo/ros2_ws/build/motors/build --no-deps symlink_data

@@ -1,0 +1,49 @@
+[3.524s] Invoking command in '/home/waldo/ros2_ws/src/yolo_ros/yolo_ros': AMENT_PREFIX_PATH=/home/waldo/ros2_ws/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/waldo/ros2_ws/install/yolo_msgs LD_LIBRARY_PATH=/home/waldo/ros2_ws/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/waldo/ros2_ws/build/yolo_ros/prefix_override:/home/waldo/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waldo/ros2_ws/install/yolo_ros/lib/python3.10/site-packages:/home/waldo/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/waldo/ros2_ws/build/yolo_ros/build install --record /home/waldo/ros2_ws/build/yolo_ros/install.log --single-version-externally-managed install_data
+[4.663s] running egg_info
+[4.666s] creating ../../../build/yolo_ros/yolo_ros.egg-info
+[4.667s] writing ../../../build/yolo_ros/yolo_ros.egg-info/PKG-INFO
+[4.668s] writing dependency_links to ../../../build/yolo_ros/yolo_ros.egg-info/dependency_links.txt
+[4.669s] writing entry points to ../../../build/yolo_ros/yolo_ros.egg-info/entry_points.txt
+[4.670s] writing requirements to ../../../build/yolo_ros/yolo_ros.egg-info/requires.txt
+[4.670s] writing top-level names to ../../../build/yolo_ros/yolo_ros.egg-info/top_level.txt
+[4.671s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[4.683s] reading manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[4.686s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[4.687s] running build
+[4.688s] running build_py
+[4.689s] creating /home/waldo/ros2_ws/build/yolo_ros/build
+[4.689s] creating /home/waldo/ros2_ws/build/yolo_ros/build/lib
+[4.690s] creating /home/waldo/ros2_ws/build/yolo_ros/build/lib/yolo_ros
+[4.690s] copying yolo_ros/debug_node.py -> /home/waldo/ros2_ws/build/yolo_ros/build/lib/yolo_ros
+[4.691s] copying yolo_ros/yolo_node.py -> /home/waldo/ros2_ws/build/yolo_ros/build/lib/yolo_ros
+[4.693s] copying yolo_ros/tracking_node.py -> /home/waldo/ros2_ws/build/yolo_ros/build/lib/yolo_ros
+[4.695s] copying yolo_ros/__init__.py -> /home/waldo/ros2_ws/build/yolo_ros/build/lib/yolo_ros
+[4.696s] copying yolo_ros/detect_3d_node.py -> /home/waldo/ros2_ws/build/yolo_ros/build/lib/yolo_ros
+[4.699s] running install
+[4.701s] running install_lib
+[4.704s] creating /home/waldo/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[4.705s] copying /home/waldo/ros2_ws/build/yolo_ros/build/lib/yolo_ros/debug_node.py -> /home/waldo/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[4.706s] copying /home/waldo/ros2_ws/build/yolo_ros/build/lib/yolo_ros/yolo_node.py -> /home/waldo/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[4.707s] copying /home/waldo/ros2_ws/build/yolo_ros/build/lib/yolo_ros/tracking_node.py -> /home/waldo/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[4.708s] copying /home/waldo/ros2_ws/build/yolo_ros/build/lib/yolo_ros/__init__.py -> /home/waldo/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[4.709s] copying /home/waldo/ros2_ws/build/yolo_ros/build/lib/yolo_ros/detect_3d_node.py -> /home/waldo/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[4.712s] byte-compiling /home/waldo/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/debug_node.py to debug_node.cpython-310.pyc
+[4.723s] byte-compiling /home/waldo/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/yolo_node.py to yolo_node.cpython-310.pyc
+[4.732s] byte-compiling /home/waldo/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/tracking_node.py to tracking_node.cpython-310.pyc
+[4.738s] byte-compiling /home/waldo/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/__init__.py to __init__.cpython-310.pyc
+[4.739s] byte-compiling /home/waldo/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/detect_3d_node.py to detect_3d_node.cpython-310.pyc
+[4.764s] running install_data
+[4.765s] creating /home/waldo/ros2_ws/install/yolo_ros/share/ament_index
+[4.766s] creating /home/waldo/ros2_ws/install/yolo_ros/share/ament_index/resource_index
+[4.766s] creating /home/waldo/ros2_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[4.767s] copying resource/yolo_ros -> /home/waldo/ros2_ws/install/yolo_ros/share/ament_index/resource_index/packages
+[4.767s] copying package.xml -> /home/waldo/ros2_ws/install/yolo_ros/share/yolo_ros
+[4.768s] running install_egg_info
+[4.775s] Copying ../../../build/yolo_ros/yolo_ros.egg-info to /home/waldo/ros2_ws/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info
+[4.781s] running install_scripts
+[4.872s] Installing debug_node script to /home/waldo/ros2_ws/install/yolo_ros/lib/yolo_ros
+[4.873s] Installing detect_3d_node script to /home/waldo/ros2_ws/install/yolo_ros/lib/yolo_ros
+[4.873s] Installing tracking_node script to /home/waldo/ros2_ws/install/yolo_ros/lib/yolo_ros
+[4.874s] Installing yolo_node script to /home/waldo/ros2_ws/install/yolo_ros/lib/yolo_ros
+[4.876s] writing list of installed files to '/home/waldo/ros2_ws/build/yolo_ros/install.log'
+[5.002s] Invoked command in '/home/waldo/ros2_ws/src/yolo_ros/yolo_ros' returned '0': AMENT_PREFIX_PATH=/home/waldo/ros2_ws/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/waldo/ros2_ws/install/yolo_msgs LD_LIBRARY_PATH=/home/waldo/ros2_ws/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/waldo/ros2_ws/build/yolo_ros/prefix_override:/home/waldo/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/waldo/ros2_ws/install/yolo_ros/lib/python3.10/site-packages:/home/waldo/ros2_ws/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/waldo/ros2_ws/build/yolo_ros/build install --record /home/waldo/ros2_ws/build/yolo_ros/install.log --single-version-externally-managed install_data

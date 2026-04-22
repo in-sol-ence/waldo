@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.001849] (-) JobUnselected: {'identifier': 'motor_interfaces'}
+[0.002564] (-) JobUnselected: {'identifier': 'motors'}
+[0.003253] (-) JobUnselected: {'identifier': 'yolo_bringup'}
+[0.003473] (-) JobUnselected: {'identifier': 'yolo_msgs'}
+[0.003870] (yolo_ros) JobQueued: {'identifier': 'yolo_ros', 'dependencies': OrderedDict([('yolo_msgs', '/home/waldo/ros2_ws/install/yolo_msgs')])}
+[0.004079] (yolo_ros) JobStarted: {'identifier': 'yolo_ros'}
+[0.061956] (yolo_ros) JobEnded: {'identifier': 'yolo_ros', 'rc': 1}
+[0.073320] (-) EventReactorShutdown: {}

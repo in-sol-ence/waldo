@@ -1,0 +1,3 @@
+int8[6] positions
+---
+bool reached

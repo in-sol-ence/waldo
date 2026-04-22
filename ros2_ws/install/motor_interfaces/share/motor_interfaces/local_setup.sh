@@ -1,0 +1,1 @@
+/home/waldo/ros2_ws/build/motor_interfaces/ament_cmake_environment_hooks/local_setup.sh

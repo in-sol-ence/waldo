@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/motors/motors.egg-info
+writing ../build/motors/motors.egg-info/PKG-INFO
+writing dependency_links to ../build/motors/motors.egg-info/dependency_links.txt
+writing entry points to ../build/motors/motors.egg-info/entry_points.txt
+writing requirements to ../build/motors/motors.egg-info/requires.txt
+writing top-level names to ../build/motors/motors.egg-info/top_level.txt
+writing manifest file '../build/motors/motors.egg-info/SOURCES.txt'
+reading manifest file '../build/motors/motors.egg-info/SOURCES.txt'
+writing manifest file '../build/motors/motors.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/waldo/ros2_ws/src/build/motors/build
+creating /home/waldo/ros2_ws/src/build/motors/build/lib
+creating /home/waldo/ros2_ws/src/build/motors/build/lib/motors
+copying motors/arm_positon.py -> /home/waldo/ros2_ws/src/build/motors/build/lib/motors
+copying motors/__init__.py -> /home/waldo/ros2_ws/src/build/motors/build/lib/motors
+copying motors/drivetrain.py -> /home/waldo/ros2_ws/src/build/motors/build/lib/motors
+running install
+running install_lib
+creating /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors
+copying /home/waldo/ros2_ws/src/build/motors/build/lib/motors/arm_positon.py -> /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors
+copying /home/waldo/ros2_ws/src/build/motors/build/lib/motors/__init__.py -> /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors
+copying /home/waldo/ros2_ws/src/build/motors/build/lib/motors/drivetrain.py -> /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors
+byte-compiling /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors/arm_positon.py to arm_positon.cpython-310.pyc
+byte-compiling /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors/drivetrain.py to drivetrain.cpython-310.pyc
+running install_data
+creating /home/waldo/ros2_ws/src/install/motors/share/ament_index
+creating /home/waldo/ros2_ws/src/install/motors/share/ament_index/resource_index
+creating /home/waldo/ros2_ws/src/install/motors/share/ament_index/resource_index/packages
+copying resource/motors -> /home/waldo/ros2_ws/src/install/motors/share/ament_index/resource_index/packages
+copying package.xml -> /home/waldo/ros2_ws/src/install/motors/share/motors
+running install_egg_info
+Copying ../build/motors/motors.egg-info to /home/waldo/ros2_ws/src/install/motors/lib/python3.10/site-packages/motors-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arm script to /home/waldo/ros2_ws/src/install/motors/lib/motors
+Installing drive script to /home/waldo/ros2_ws/src/install/motors/lib/motors
+writing list of installed files to '/home/waldo/ros2_ws/src/build/motors/install.log'

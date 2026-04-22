@@ -1,0 +1,1 @@
+/home/waldo/ros2_ws/build/motor_interfaces/rosidl_generator_cpp/motor_interfaces/srv/detail/arm_pos__struct.hpp

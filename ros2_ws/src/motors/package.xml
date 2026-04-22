@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>motors</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="sol.oberoi.m@gmail.com">waldo</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- build tool for Python-based ament packages -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- runtime dependencies inferred from the Python source files -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>motor_interfaces</exec_depend>
+  <!-- scservo_sdk is a Python package (ftservo-python-sdk) that provides
+    the `scservo_sdk` module used to talk to the STS3215 servos. It should
+    be installed in the environment (e.g. via pip/rosdep). -->
+  <exec_depend>scservo_sdk</exec_depend>
+
+  <!-- keep test dependencies used by the repository's tests -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

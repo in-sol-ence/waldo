@@ -1,0 +1,252 @@
+[0.061s] Invoking command in '/home/waldo/ros2_ws/src/build/motor_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/waldo/ros2_ws/src/install/motors:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/waldo/ros2_ws/src/build/motor_interfaces -- -j4 -l4
+[0.175s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.937s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.947s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.960s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.547s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.462s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.675s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.791s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.908s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.908s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.909s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.958s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.018s] -- Added test 'lint_cmake' to check CMake code style
+[5.027s] -- Added test 'xmllint' to check XML markup files
+[5.040s] -- Configuring done
+[5.250s] -- Generating done
+[5.310s] -- Build files have been written to: /home/waldo/ros2_ws/src/build/motor_interfaces
+[5.416s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.472s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.529s] [  5%] Built target ament_cmake_python_copy_motor_interfaces
+[7.015s] running egg_info
+[7.018s] writing motor_interfaces.egg-info/PKG-INFO
+[7.022s] writing dependency_links to motor_interfaces.egg-info/dependency_links.txt
+[7.025s] writing top-level names to motor_interfaces.egg-info/top_level.txt
+[7.038s] reading manifest file 'motor_interfaces.egg-info/SOURCES.txt'
+[7.045s] writing manifest file 'motor_interfaces.egg-info/SOURCES.txt'
+[7.194s] [  5%] Built target ament_cmake_python_build_motor_interfaces_egg
+[7.648s] [35m[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_generator_c[0m
+[7.729s] [  7%] [32mBuilding C object CMakeFiles/motor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_interfaces/srv/detail/arm_pos__functions.c.o[0m
+[7.732s] [ 10%] [32mBuilding C object CMakeFiles/motor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_interfaces/srv/detail/wheel_vel__functions.c.o[0m
+[7.740s] [ 10%] Built target motor_interfaces__cpp
+[7.794s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.798s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.132s] [ 17%] [32m[1mLinking C shared library libmotor_interfaces__rosidl_generator_c.so[0m
+[8.147s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.369s] [ 20%] Built target motor_interfaces__rosidl_generator_c
+[8.429s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.543s] [35m[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_cpp[0m
+[9.624s] [ 25%] [32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_interfaces/srv/arm_pos__type_support.cpp.o[0m
+[9.898s] [35m[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[10.214s] [ 28%] [32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_interfaces/srv/detail/dds_fastrtps/arm_pos__type_support.cpp.o[0m
+[10.229s] [35m[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_introspection_cpp[0m
+[10.314s] [ 30%] [32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_interfaces/srv/detail/arm_pos__type_support.cpp.o[0m
+[10.643s] [35m[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_fastrtps_c[0m
+[10.729s] [ 33%] [32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_interfaces/srv/detail/arm_pos__type_support_c.cpp.o[0m
+[11.572s] [ 35%] [32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_interfaces/srv/wheel_vel__type_support.cpp.o[0m
+[13.074s] [ 38%] [32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_interfaces/srv/detail/wheel_vel__type_support.cpp.o[0m
+[13.267s] [ 41%] [32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_interfaces/srv/detail/dds_fastrtps/wheel_vel__type_support.cpp.o[0m
+[13.346s] [ 43%] [32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_interfaces/srv/detail/wheel_vel__type_support_c.cpp.o[0m
+[13.634s] [ 46%] [32m[1mLinking CXX shared library libmotor_interfaces__rosidl_typesupport_cpp.so[0m
+[13.884s] [ 46%] Built target motor_interfaces__rosidl_typesupport_cpp
+[13.953s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.815s] [ 51%] [32m[1mLinking CXX shared library libmotor_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[15.947s] [ 53%] [32m[1mLinking CXX shared library libmotor_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[16.324s] [ 53%] Built target motor_interfaces__rosidl_typesupport_introspection_cpp
+[16.329s] [35m[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_introspection_c[0m
+[16.390s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.482s] [ 56%] Built target motor_interfaces__rosidl_typesupport_fastrtps_c
+[16.507s] [ 58%] [32mBuilding C object CMakeFiles/motor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_interfaces/srv/detail/arm_pos__type_support.c.o[0m
+[16.534s] [ 61%] [32mBuilding C object CMakeFiles/motor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_interfaces/srv/detail/wheel_vel__type_support.c.o[0m
+[16.550s] [ 64%] [32m[1mLinking CXX shared library libmotor_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.827s] [ 66%] [32m[1mLinking C shared library libmotor_interfaces__rosidl_typesupport_introspection_c.so[0m
+[17.003s] [ 66%] Built target motor_interfaces__rosidl_typesupport_fastrtps_cpp
+[17.017s] [ 66%] Built target motor_interfaces__rosidl_typesupport_introspection_c
+[17.843s] [35m[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_c[0m
+[17.898s] [ 69%] [32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_interfaces/srv/arm_pos__type_support.cpp.o[0m
+[17.899s] [ 71%] [32mBuilding CXX object CMakeFiles/motor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_interfaces/srv/wheel_vel__type_support.cpp.o[0m
+[18.068s] [ 74%] [32m[1mLinking CXX shared library libmotor_interfaces__rosidl_typesupport_c.so[0m
+[18.247s] [ 74%] Built target motor_interfaces__rosidl_typesupport_c
+[18.338s] [ 74%] Built target motor_interfaces
+[18.433s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[20.980s] [ 76%] Built target motor_interfaces__py
+[21.028s] [35m[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_generator_py[0m
+[21.099s] [ 79%] [32mBuilding C object CMakeFiles/motor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motor_interfaces/srv/_arm_pos_s.c.o[0m
+[21.100s] [ 82%] [32mBuilding C object CMakeFiles/motor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motor_interfaces/srv/_wheel_vel_s.c.o[0m
+[21.672s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/motor_interfaces/libmotor_interfaces__rosidl_generator_py.so[0m
+[21.877s] [ 84%] Built target motor_interfaces__rosidl_generator_py
+[21.938s] [35m[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[21.939s] [35m[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[21.953s] [35m[1mConsolidate compiler generated dependencies of target motor_interfaces__rosidl_typesupport_c__pyext[0m
+[22.018s] [ 87%] [32mBuilding C object CMakeFiles/motor_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[22.050s] [ 89%] [32mBuilding C object CMakeFiles/motor_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[22.111s] [ 92%] [32mBuilding C object CMakeFiles/motor_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[22.705s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/motor_interfaces/motor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[23.058s] [ 94%] Built target motor_interfaces__rosidl_typesupport_introspection_c__pyext
+[23.129s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/motor_interfaces/motor_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[23.144s] [100%] [32m[1mLinking C shared library rosidl_generator_py/motor_interfaces/motor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[23.378s] [100%] Built target motor_interfaces__rosidl_typesupport_c__pyext
+[23.393s] [100%] Built target motor_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[23.458s] Invoked command in '/home/waldo/ros2_ws/src/build/motor_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/waldo/ros2_ws/src/install/motors:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/waldo/ros2_ws/src/build/motor_interfaces -- -j4 -l4
+[23.510s] Invoking command in '/home/waldo/ros2_ws/src/build/motor_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/waldo/ros2_ws/src/install/motors:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/waldo/ros2_ws/src/build/motor_interfaces
+[23.559s] -- Install configuration: ""
+[23.563s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/share/ament_index/resource_index/rosidl_interfaces/motor_interfaces
+[23.564s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces
+[23.565s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg
+[23.565s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/rosidl_generator_c__visibility_control.h
+[23.569s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv
+[23.570s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail
+[23.573s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/wheel_vel__type_support.h
+[23.574s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__functions.h
+[23.577s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/wheel_vel__struct.h
+[23.577s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__struct.h
+[23.579s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__type_support.h
+[23.583s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/wheel_vel__functions.c
+[23.584s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/wheel_vel__functions.h
+[23.584s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__functions.c
+[23.585s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/arm_pos.h
+[23.586s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/wheel_vel.h
+[23.586s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/library_path.sh
+[23.587s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/library_path.dsv
+[23.589s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_generator_c.so
+[23.590s] -- Set runtime path of "/home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_generator_c.so" to ""
+[23.591s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces
+[23.592s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg
+[23.593s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.594s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv
+[23.597s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail
+[23.597s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__rosidl_typesupport_fastrtps_c.h
+[23.598s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/wheel_vel__rosidl_typesupport_fastrtps_c.h
+[23.599s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_fastrtps_c.so
+[23.602s] -- Set runtime path of "/home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[23.603s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces
+[23.604s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg
+[23.605s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.606s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv
+[23.607s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail
+[23.608s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__rosidl_typesupport_introspection_c.h
+[23.609s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__type_support.c
+[23.610s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/wheel_vel__rosidl_typesupport_introspection_c.h
+[23.611s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/wheel_vel__type_support.c
+[23.622s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_introspection_c.so
+[23.623s] -- Set runtime path of "/home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[23.624s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_c.so
+[23.629s] -- Set runtime path of "/home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_c.so" to ""
+[23.631s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces
+[23.633s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv
+[23.634s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail
+[23.638s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/wheel_vel__builder.hpp
+[23.639s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/wheel_vel__struct.hpp
+[23.641s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/wheel_vel__traits.hpp
+[23.642s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__struct.hpp
+[23.646s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__builder.hpp
+[23.647s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__traits.hpp
+[23.649s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/arm_pos.hpp
+[23.651s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/wheel_vel.hpp
+[23.653s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces
+[23.657s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg
+[23.658s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.659s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv
+[23.660s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail
+[23.660s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/dds_fastrtps
+[23.661s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__rosidl_typesupport_fastrtps_cpp.hpp
+[23.663s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/wheel_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[23.664s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[23.667s] -- Set runtime path of "/home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.668s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces
+[23.669s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv
+[23.669s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail
+[23.670s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__rosidl_typesupport_introspection_cpp.hpp
+[23.673s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/wheel_vel__rosidl_typesupport_introspection_cpp.hpp
+[23.675s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/arm_pos__type_support.cpp
+[23.677s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/include/motor_interfaces/motor_interfaces/srv/detail/wheel_vel__type_support.cpp
+[23.681s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_introspection_cpp.so
+[23.685s] -- Set runtime path of "/home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[23.687s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_cpp.so
+[23.690s] -- Set runtime path of "/home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_typesupport_cpp.so" to ""
+[23.691s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/pythonpath.sh
+[23.692s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/pythonpath.dsv
+[23.694s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.0.0-py3.10.egg-info
+[23.695s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[23.697s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[23.699s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[23.701s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[23.703s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces
+[23.704s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[23.707s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_c.c
+[23.709s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[23.712s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/libmotor_interfaces__rosidl_generator_py.so
+[23.714s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv
+[23.716s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv/_arm_pos.py
+[23.718s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv/__init__.py
+[23.720s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv/_arm_pos_s.c
+[23.722s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv/_wheel_vel.py
+[23.724s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv/_wheel_vel_s.c
+[23.726s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[23.729s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/__init__.py
+[23.732s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[23.733s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/_motor_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[24.005s] Listing '/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces'...
+[24.007s] Compiling '/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/__init__.py'...
+[24.009s] Listing '/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv'...
+[24.015s] Compiling '/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv/__init__.py'...
+[24.017s] Compiling '/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv/_arm_pos.py'...
+[24.019s] Compiling '/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/srv/_wheel_vel.py'...
+[24.045s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[24.050s] -- Set runtime path of "/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[24.053s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[24.058s] -- Set runtime path of "/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[24.066s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[24.067s] -- Set runtime path of "/home/waldo/ros2_ws/src/install/motor_interfaces/local/lib/python3.10/dist-packages/motor_interfaces/motor_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[24.074s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_generator_py.so
+[24.085s] -- Set runtime path of "/home/waldo/ros2_ws/src/install/motor_interfaces/lib/libmotor_interfaces__rosidl_generator_py.so" to ""
+[24.089s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/srv/ArmPos.idl
+[24.095s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/srv/WheelVel.idl
+[24.103s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/srv/ArmPos.srv
+[24.106s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/srv/ArmPos_Request.msg
+[24.108s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/srv/ArmPos_Response.msg
+[24.110s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/srv/WheelVel.srv
+[24.110s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/srv/WheelVel_Request.msg
+[24.111s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/srv/WheelVel_Response.msg
+[24.112s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/ament_index/resource_index/package_run_dependencies/motor_interfaces
+[24.114s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/share/ament_index/resource_index/parent_prefix_path/motor_interfaces
+[24.115s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/ament_prefix_path.sh
+[24.115s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/ament_prefix_path.dsv
+[24.117s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/path.sh
+[24.117s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/environment/path.dsv
+[24.119s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/local_setup.bash
+[24.120s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/local_setup.sh
+[24.121s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/local_setup.zsh
+[24.121s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/local_setup.dsv
+[24.123s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/package.dsv
+[24.125s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/ament_index/resource_index/packages/motor_interfaces
+[24.126s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_cExport.cmake
+[24.127s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_cExport-noconfig.cmake
+[24.128s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[24.129s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[24.130s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[24.131s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[24.134s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_cExport.cmake
+[24.135s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[24.136s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_cppExport.cmake
+[24.137s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.138s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[24.138s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[24.143s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[24.143s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_cppExport.cmake
+[24.144s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[24.146s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_pyExport.cmake
+[24.148s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/export_motor_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[24.149s] -- Installing: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/rosidl_cmake-extras.cmake
+[24.150s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.151s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[24.155s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[24.156s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.158s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.159s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.161s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfacesConfig.cmake
+[24.171s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/cmake/motor_interfacesConfig-version.cmake
+[24.175s] -- Up-to-date: /home/waldo/ros2_ws/src/install/motor_interfaces/share/motor_interfaces/package.xml
+[24.180s] Invoked command in '/home/waldo/ros2_ws/src/build/motor_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/waldo/ros2_ws/src/install/motors:/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/waldo/ros2_ws/src/build/motor_interfaces
